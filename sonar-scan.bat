@@ -20,7 +20,7 @@
 
 :main
 @echo "Scanning branch main"
-sonar-scanner.bat -D"sonar.projectKey=30DaysOfJavaScript" -D"sonar.sources=." -D"sonar.host.url=http://127.0.0.1:9000" -D"sonar.token=sqp_9ae5891b9fe88921fc8b927189693d96afb10e52"
+sonar-scanner.bat -D"sonar.projectKey=30DaysOfJavaScript" -D"sonar.sourceEncoding=UTF-8" -D"sonar.sources=." -D"sonar.host.url=http://127.0.0.1:9000" -D"sonar.token=sqp_2a4d767378ae4ae5212526a89ab97d72ed16d1a8"
 @goto end
 
 :others
